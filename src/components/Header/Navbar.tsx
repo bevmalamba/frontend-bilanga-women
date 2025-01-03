@@ -19,14 +19,14 @@ const Navbar = () => {
             <Link to="/contact" className="text-gray-600 hover:text-green-600">Contact</Link>
             <Link to="/formulaire" className="text-gray-600 hover:text-green-600">Formulaire</Link>
           </div>
-          <div className='md:lg:hidden w-1 '>
-          <a href="/" className="text-gray-600 hover:text-green-600">Home</a>
-            <a href="/services" className="text-gray-600 hover:text-green-600">Services</a>
-            <a href="/projets" className="text-gray-600 hover:text-green-600">Projets</a>
-            <a href="/shop" className="text-gray-600 hover:text-green-600">Shop</a>
-            <a href="/contact" className="text-gray-600 hover:text-green-600">Contact</a>
-            <a href="/formulaire" className="text-gray-600 hover:text-green-600">Formulaire</a>
-          </div>
+          <div className="md:hidden bg-gray-50 shadow-md">
+          <Link to="/" className="block px-4 py-2 text-gray-600 hover:text-green-600">Home</Link>
+          <Link to="/services" className="block px-4 py-2 text-gray-600 hover:text-green-600">Services</Link>
+          <Link to="/projets" className="block px-4 py-2 text-gray-600 hover:text-green-600">Projets</Link>
+          <Link to="/shop" className="block px-4 py-2 text-gray-600 hover:text-green-600">Shop</Link>
+          <Link to="/contact" className="block px-4 py-2 text-gray-600 hover:text-green-600">Contact</Link>
+          <Link to="/formulaire" className="block px-4 py-2 text-gray-600 hover:text-green-600">Formulaire</Link>
+        </div>
           
           <div className="flex items-center space-x-4">
             <button className="text-gray-600 hover:text-green-600">

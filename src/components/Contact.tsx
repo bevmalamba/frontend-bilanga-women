@@ -29,7 +29,7 @@ const Contact = () => {
     try {
       console.log(formData);
       
-      await axios.post("http://localhost:3333/api/contact", JSON.stringify(formData), {headers: {
+      await axios.post("https://api-bilanga-women.onrender.com", JSON.stringify(formData), {headers: {
         'Content-Type': 'application/json'
       } });
       setResponseMessage("Votre message a été envoyé avec succès !");
