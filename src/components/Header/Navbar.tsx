@@ -18,6 +18,14 @@ const Navbar = () => {
             <a href="/contact" className="text-gray-600 hover:text-green-600">Contact</a>
             <a href="/formulaire" className="text-gray-600 hover:text-green-600">Formulaire</a>
           </div>
+          <div className='md:lg:hidden w-1 '>
+          <a href="/" className="text-gray-600 hover:text-green-600">Home</a>
+            <a href="/services" className="text-gray-600 hover:text-green-600">Services</a>
+            <a href="/projets" className="text-gray-600 hover:text-green-600">Projets</a>
+            <a href="/shop" className="text-gray-600 hover:text-green-600">Shop</a>
+            <a href="/contact" className="text-gray-600 hover:text-green-600">Contact</a>
+            <a href="/formulaire" className="text-gray-600 hover:text-green-600">Formulaire</a>
+          </div>
           
           <div className="flex items-center space-x-4">
             <button className="text-gray-600 hover:text-green-600">
