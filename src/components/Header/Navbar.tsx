@@ -1,5 +1,5 @@
 
-import { ShoppingCart, Search } from 'lucide-react';
+import { ShoppingCart, Search, Link } from 'lucide-react';
 
 const Navbar = () => {
   return (
@@ -12,7 +12,7 @@ const Navbar = () => {
           
           <div className="hidden md:flex items-center space-x-8">
             <a href="/" className="text-gray-600 hover:text-green-600">Home</a>
-            <a href="/services" className="text-gray-600 hover:text-green-600">Services</a>
+            <Link to="/services" className="text-gray-600 hover:text-green-600">Services</Link>
             <a href="/projets" className="text-gray-600 hover:text-green-600">Projets</a>
             <a href="/shop" className="text-gray-600 hover:text-green-600">Shop</a>
             <a href="/contact" className="text-gray-600 hover:text-green-600">Contact</a>
@@ -24,7 +24,7 @@ const Navbar = () => {
             <a href="/projets" className="text-gray-600 hover:text-green-600">Projets</a>
             <a href="/shop" className="text-gray-600 hover:text-green-600">Shop</a>
             <a href="/contact" className="text-gray-600 hover:text-green-600">Contact</a>
-            <a href="/formulaire" className="text-gray-600 hover:text-green-600">Formulaire</a>
+            <Link to="/formulaire" className="text-gray-600 hover:text-green-600">Formulaire</Link>
           </div>
           
           <div className="flex items-center space-x-4">
