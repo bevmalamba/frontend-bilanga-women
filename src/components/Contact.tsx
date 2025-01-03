@@ -1,4 +1,5 @@
-import axios, { AxiosResponse } from "axios";
+// import axios, { AxiosResponse } from "axios";
+import axios from "axios";
 import { useState } from "react";
 
 const Contact = () => {
@@ -28,8 +29,7 @@ const Contact = () => {
     try {
       console.log(formData);
       
-      let response: AxiosResponse<any, any> 
-      response = await axios.post("http://localhost:3333/api/contact", JSON.stringify(formData), {headers: {
+      await axios.post("http://localhost:3333/api/contact", JSON.stringify(formData), {headers: {
         'Content-Type': 'application/json'
       } });
       setResponseMessage("Votre message a été envoyé avec succès !");
