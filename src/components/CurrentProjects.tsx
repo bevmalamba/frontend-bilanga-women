@@ -1,5 +1,5 @@
 
-import { Calendar, Users, Target } from 'lucide-react';
+import { Calendar } from 'lucide-react';
 
 const projects = [
   {

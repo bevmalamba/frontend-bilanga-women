@@ -1,5 +1,4 @@
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import { Phone, Mail, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 
 import Services from './Services';
 import Contact from '../Contact';
