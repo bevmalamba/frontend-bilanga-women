@@ -12,13 +12,13 @@ const Navbar = () => {
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-              <Link to="/" className="text-gray-600 hover:text-green-600">Home</Link>
-              <Link to="/services" className="text-gray-600 hover:text-green-600">Services</Link>
-              <Link to="/projets" className="text-gray-600 hover:text-green-600">Projets</Link>
-              <Link to="/shop" className="text-gray-600 hover:text-green-600">Shop</Link>
-              <Link to="/contact" className="text-gray-600 hover:text-green-600">Contact</Link>
-              <Link to="/formulaire" className="text-gray-600 hover:text-green-600">Formulaire</Link>
-         </div>
+            <Link to="/" className="text-gray-600 hover:text-green-600">Home</Link>
+            <Link to="/services" className="text-gray-600 hover:text-green-600">Services</Link>
+            <Link to="/projets" className="text-gray-600 hover:text-green-600">Projets</Link>
+            <Link to="/shop" className="text-gray-600 hover:text-green-600">Shop</Link>
+            <Link to="/contact" className="text-gray-600 hover:text-green-600">Contact</Link>
+            <Link to="/formulaire" className="text-gray-600 hover:text-green-600">Formulaire</Link>
+          </div>
           <div className='md:lg:hidden w-1 '>
           <a href="/" className="text-gray-600 hover:text-green-600">Home</a>
             <a href="/services" className="text-gray-600 hover:text-green-600">Services</a>
